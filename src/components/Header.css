@@ -1,0 +1,40 @@
+.header {
+    background-color: #2a2a72;
+    height: 40px;
+    
+}
+
+.header .navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* .header .navigation ul li {
+    float: left;
+} */
+
+.header .navigation ul li a {
+    text-decoration: none;
+    display: block;
+    
+}
+
+.header .navigation ul li a.products {
+    float: left;
+    color: aliceblue;
+    padding: 0px 60px;
+    /* background-color: aqua; */
+    line-height: 40px;
+}
+
+.header .navigation ul li a.myCart {
+    padding: 0px 20px;
+    margin: 5px 20px;
+    line-height: 30px;
+    color: #458ef4;
+    height: 30px;
+    float: right;
+    border: 1px solid #458ef4;
+    border-radius: 10%;
+}

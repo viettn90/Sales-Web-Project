@@ -1,0 +1,37 @@
+.main {
+    background-color: #f3f3f3;
+    height: 1000px;
+    width: 1200px;
+    
+}
+
+.name_main h1 {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 5% 0px 2% 0px
+}
+
+.product_list_container {
+    /* background-color: #fff; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.product_list_container .item {
+    margin: 10px 10px;
+    padding: 5px 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.product_list_container .item .name {
+    margin: 5px auto;
+}
+
+.product_list_container .item img {
+    margin: 10px 10px;
+}
