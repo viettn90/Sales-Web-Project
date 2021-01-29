@@ -7,7 +7,7 @@ export default {
             Image: "/image/Samsung_s21.jpg",
             Modal: "Samsung S21",
             MadeBy: "Samsung",
-            Info: "You can put your json in a javascript file. This can be loaded locally (even in Chrome) using jQuery's getScript() function. Notice that the json variable is declared and assigned in the js file."
+            Info: "Rather than offer essentially the same top-tier phone at different sizes, Samsung has chosen to get aggressive on price this year. The Galaxy S21 starts at $799.99 for the smaller version with a 6.2-inch screen and $999.99 for the Plus version with a 6.7-inch display. Though in both cases, the smart move is to spend an extra $50 for the models with 256GB of storage. It helps that the S21 happens to be a very good midrange phone. Nevertheless, Samsung’s choices this year mean if you want to get the very best phone Samsung has to offer right now, you have to buy the very biggest phone, the Galaxy S21 Ultra. If the Ultra is too big or too expensive for your needs, there’s nothing wrong with the regular Galaxy S21."
         },
         {
             Name: "Iphone 12",

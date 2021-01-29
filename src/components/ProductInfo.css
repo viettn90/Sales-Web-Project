@@ -1,0 +1,50 @@
+.details__name {
+    text-align: center;
+    margin: 50px auto;
+}
+.details__main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10%;
+}
+.details__main ul {
+    list-style: none;
+}
+.details__main-image {
+    /* background-color:black; */
+    flex: 50%;
+    text-align: center;
+}
+.details__main-info {
+    /* background-color: blue; */
+    flex: 50%;
+    font-size: 15px;
+    
+}
+.details__main-info li + li {
+    margin: 10px 0;
+}
+.details__main-info-price {
+    color: #2c2575;
+}
+.btn {
+    background-color: transparent;
+    padding: 10px 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: opacity .2s linear;
+    min-width: 70px;
+    font-weight: 600;
+}
+.btn:hover{
+    opacity: 0.5;
+}
+.btn--btp {
+    border-color: #3e8bc1;
+    color: #29a1e0;
+}
+.btn--incart {
+    border-color: #e5a25c;
+    color: #e5a25c;
+    margin-left: 5px;
+}

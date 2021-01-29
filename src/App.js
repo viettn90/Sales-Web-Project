@@ -9,7 +9,6 @@ import { BrowserRouter as Router, Switch, Route, BrowserRouter } from 'react-rou
 
 function App() {
   return (
-    <BrowserRouter>
       <Router>
         <div className="App">
           <Header />
@@ -18,9 +17,7 @@ function App() {
           <Route path="/myCart" component={MyCart} />
 
         </div>
-      </Router>
-    </BrowserRouter>
-    
+      </Router>   
     
   );
 }
