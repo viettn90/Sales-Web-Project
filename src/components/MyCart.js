@@ -20,18 +20,22 @@ function MyCart(props) {
                 <tr>
                     <td>Image</td>
                     <td>Samsung</td>
-                    <td>1200</td>
-                    <td>1</td>
+                    <td><b>$1200</b></td>
+                    <td>
+                        <button className="btn--add">-</button>
+                        <input className="qty__textbox" defaultValue="1"/>
+                        <button className="btn--add">+</button>
+                    </td>
                     <td>X</td>
-                    <td>1200</td>
+                    <td><b>Item total: $1200</b></td>
                 </tr>
             </table>
             <div className="cart__bill">
-                <button>CLEAR CART</button>
+                <button className="btn--clear">CLEAR CART</button>
                 <div>
-                    <h2>SUBTOTAL: $</h2>
-                    <h2>TAX: $</h2>
-                    <h2>TOTAL: $</h2>
+                    <h2>SUBTOTAL: $3000</h2>
+                    <h2>TAX: $300</h2>
+                    <h2>TOTAL: $3000</h2>
                 </div>
             </div>
         </div>

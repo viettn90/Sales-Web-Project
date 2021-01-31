@@ -30,6 +30,8 @@
 .btn {
     background-color: transparent;
     padding: 10px 5px;
+    border: 2px solid;
+    outline: none;
     border-radius: 7px;
     cursor: pointer;
     transition: opacity .2s linear;

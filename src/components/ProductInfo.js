@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import ProductList from "./ProductList";
 import { Link } from "react-router-dom";
 import data from "./data";
@@ -7,6 +7,11 @@ import './ProductInfo.css'
 export default function ProductInfo(props) {
     // console.log(props.match.params.id)
     const product = data.products.find(x => x.Id === props.match.params.id)
+
+    const [cart, setCart] = useState([{
+        text: "Show info"
+    }])
+
     return(
         <div className="details">
             <h1 className="details__name">{product.Name}</h1>
@@ -32,11 +37,14 @@ export default function ProductInfo(props) {
                             </div>
                         </li>
                         <li>
-                            <button className="btn btn--btp btn--disable">Back To Products</button>
+                            <Link to={"/"}>
+                                <button href="/" className="btn btn--btp btn--disable">Back To Products</button>
+                            </Link>
                             <button className="btn btn--incart">In Cart</button>
                         </li>
                     </ul>
                 </div>
+                
             </div>
         </div>
     )
